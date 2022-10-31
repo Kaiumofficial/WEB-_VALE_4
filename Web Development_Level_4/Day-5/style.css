@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    width: 1200px;
+    margin:0 auto;
+   
+
+}
+.head{
+    background: rgb(72, 146, 189);
+    height: 100px;
+}
+.logo{
+    float: left;
+    padding: 10px;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style:none;
+    padding-top: 30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: red;
+    background-color: white;
+}
+.logo p{
+    font-size: 30px;
+    float: right;
+    padding: 20px;
+    color: rgb(165, 7, 7);
+    
+
+
+    ;
+}
+/* Header part End */
+/* Banner part start */
+.banner img{
+    width: 400px;
+    height: 200px;
+}
+
+/* Banner part End */
+/* Title part start */
+.title h4{
+    text-align: center;
+    font-size: 35px;
+    padding: 3px;
+    background-color: blueviolet;
+}
+/* Title part end */
+/* Services Box start */
+.services-box{
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+.singular-service-box{
+    background-color: brown;
+    margin-right: 16px;
+    width: 25%;
+
+}
+.singular-service-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 10px;
+
+}
+.singular-service-box h2{
+    padding: 10px;
+    color: wheat;
+}
+.singular-service-box p{
+    color: aliceblue;
+}
+
+    
+
+
+/* Services Box End */
+/* footer part start */
+footer{
+    width: 1200px;
+    margin: 30px auto;
+}
+.footer-card img{
+    height: 30px;
+    width: 30px;
+}
+.footer-card{
+    background-color: aquamarine;
+    
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20%,auto));
+    gap: 1%;
+    text-transform: capitalize;
+}
+.soicial{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(15%,auto));
+}
+.soicial h2{
+    text-align: center;
+}
+.soicial a{
+    position: relative;
+    left: 33%;
+    text-decoration: none;
+    color: red;
+
+}
+
+.address{
+    padding: 16px;
+}
+/* footer part End */
+
+
+
